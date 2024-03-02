@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "329265266493",
+    "project_id": "moodboostio",
+    "storage_bucket": "moodboostio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329265266493:android:321f09272190e97445cf54",
+        "android_client_info": {
+          "package_name": "com.example.moodboostio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOLJPRRzGDBbU_rGbesdUfrqJ6ddG1ZFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

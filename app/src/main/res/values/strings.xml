@@ -6,4 +6,5 @@
     <string name="username">Username</string>
     <string name="moodboost_io">MoodBoost.IO</string>
     <string name="agree_terms">I Agree to MoodBoost\'s Terms</string>
+    <string name="email">Email</string>
 </resources>

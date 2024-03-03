@@ -55,8 +55,10 @@
         android:fontFamily="sans-serif-light"
         android:text="March 2024"
         android:textSize="11sp"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="97dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="100dp" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -71,8 +73,9 @@
         android:id="@+id/imageView16"
         android:layout_width="345dp"
         android:layout_height="71dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/menuicons"
-        tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="657dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -60,7 +60,7 @@ public class Register extends AppCompatActivity {
             }
 
             if (!cbAgree.isChecked()) {
-                errorMessage.append("Agree to Terms & Conditions");
+                errorMessage.append("Agree to Terms");
 
             }
 

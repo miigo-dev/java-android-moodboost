@@ -7,4 +7,6 @@
     <string name="moodboost_io">MoodBoost.IO</string>
     <string name="agree_terms">I Agree to MoodBoost\'s Terms</string>
     <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="passLength">Password must be 6 chars long</string>
 </resources>

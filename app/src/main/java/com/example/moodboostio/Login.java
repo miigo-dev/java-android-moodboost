@@ -3,9 +3,13 @@ package com.example.moodboostio;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -19,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
 
-    Button btnLogin;
+    ImageView btnLogin, btnRegister;
     EditText editTextEmail, editTextPassword;
     CheckBox rememberMe;
     FirebaseAuth mAuth;
@@ -36,7 +40,7 @@ public class Login extends AppCompatActivity {
         editTextPassword = findViewById(R.id.etPassword);
         rememberMe = findViewById(R.id.cbRemember);
 
-        btnLogin = findViewById(R.id.btnLogin);
+        btnLogin = findViewById(R.id.imgLogin);
         btnLogin.setOnClickListener(view -> {
             String email, password;
             email = String.valueOf(editTextEmail.getText());
@@ -75,6 +79,12 @@ public class Login extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                         }
                     });
+        });
+
+        btnRegister = findViewById(R.id.imgRegister);
+        btnRegister.setOnClickListener(view -> {
+            Intent intent = new Intent(Login.this, Register.class);
+            startActivity(intent);
         });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

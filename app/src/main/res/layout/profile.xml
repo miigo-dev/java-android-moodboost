@@ -5,21 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/profilepage"
-    tools:context=".Community">
+    android:background="@drawable/createprofile"
+    tools:context=".Profile">
 
-    <ImageView
-        android:id="@+id/imgprofile"
-        android:layout_width="173dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btnwhite2" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/imageButton17"
         android:layout_width="63dp"
         android:layout_height="61dp"
         android:layout_marginTop="664dp"
@@ -31,29 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="63dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="664dp"
-        android:background="@null"
-        android:src="@drawable/btncommunity"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="63dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="664dp"
-        android:background="@null"
-        android:src="@drawable/btnmedidate2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/imageButton18"
         android:layout_width="63dp"
         android:layout_height="61dp"
         android:layout_marginTop="664dp"
@@ -64,16 +33,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check Profile"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imgprofile"
-        app:layout_constraintEnd_toEndOf="@+id/imgprofile"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="@+id/imgprofile"
-        app:layout_constraintTop_toTopOf="@+id/imgprofile"
-        app:layout_constraintVertical_bias="0.588" />
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="664dp"
+        android:background="@null"
+        android:src="@drawable/btnmedidate2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="664dp"
+        android:background="@null"
+        android:src="@drawable/btncommunity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

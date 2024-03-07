@@ -7,6 +7,52 @@
     android:background="@drawable/main"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="636dp"
+        android:background="@null"
+        android:src="@drawable/btnjournal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="636dp"
+        android:background="@null"
+        android:src="@drawable/btncommunity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="636dp"
+        android:background="@null"
+        android:src="@drawable/btncommunity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="636dp"
+        android:background="@null"
+        android:src="@drawable/btnmedidate2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="396dp"
@@ -72,17 +118,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/whiteelement3" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="345dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="612dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menuicons" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

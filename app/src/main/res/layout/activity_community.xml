@@ -8,4 +8,49 @@
     android:background="@drawable/profilepage"
     tools:context=".Community">
 
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="664dp"
+        android:background="@null"
+        android:src="@drawable/btncommunity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="664dp"
+        android:background="@null"
+        android:src="@drawable/btncommunity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="664dp"
+        android:background="@null"
+        android:src="@drawable/btnmedidate2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="664dp"
+        android:background="@null"
+        android:src="@drawable/btnjournal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
